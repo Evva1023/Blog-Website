@@ -2,6 +2,8 @@ import React from "react";
 
 export const HomeView = () => {
     return (
-        <h1>Home Page</h1>
+        <main>
+            <h1>Welcome!</h1>
+        </main>
     );
 };

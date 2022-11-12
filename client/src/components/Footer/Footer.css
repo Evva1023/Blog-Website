@@ -1,0 +1,9 @@
+footer {
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer.flex {
+    justify-content: space-between;
+}

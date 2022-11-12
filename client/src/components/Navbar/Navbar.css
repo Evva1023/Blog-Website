@@ -1,0 +1,46 @@
+nav.flex {
+    justify-content: space-around;
+}
+
+.nav-link {
+    display: inline-block;
+    color: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #222;
+    transition: width 0.2s ease-in-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+.nav-link.write {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #ffc0cb;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link.write:hover::before {
+    width: 0;
+}
+
+.nav-link.write:hover {
+    background-color: #e38393;
+}
