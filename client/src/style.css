@@ -10,12 +10,70 @@ body {
     font-family: "Montserrat", Arial, sans-serif;
 }
 
-.container {
-    padding: 20px;
+input, button {
+    display: block;
+    margin: 20px 0;
+    padding: 5px 10px;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-link {
     display: inline-block;
     padding: 5px 10px;
     margin: 0 10px;
+}
+
+.login-container {
+    height: 100vh;
+    background-color: #ffc0cb;
+    padding: 0 20px;
+}
+
+.login {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login h1 {
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 100%;
+    padding: 30px 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.login-form-input, .login-form-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.login-form-input {
+    border-bottom: 1px solid #595656;
+}
+
+.login-form-btn {
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #e38393;
+}
+
+.login-form-btn:hover {
+    background-color: #e55e74;
 }
