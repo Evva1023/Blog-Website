@@ -8,6 +8,7 @@
 
 body {
     font-family: "Montserrat", Arial, sans-serif;
+    color: #222;
 }
 
 input, button {
@@ -29,8 +30,12 @@ button {
 
 .nav-link {
     display: inline-block;
+    background-color: #fff;
+    color: #222;
+    text-decoration: none;
     padding: 5px 10px;
-    margin: 0 10px;
+    border-radius: 10px;
+    margin: 10px 10px 0 0;
 }
 
 .login-container {
@@ -48,32 +53,44 @@ button {
     margin-bottom: 20px;
 }
 
-.login-form {
+.form {
     width: 100%;
     padding: 30px 10px;
     background: #fff;
     border-radius: 10px;
 }
 
-.login-form-input, .login-form-btn {
+.form-input, .form-btn {
     width: 100%;
     border: none;
     outline: none;
 }
 
-.login-form-input {
+.form-input {
     border-bottom: 1px solid #595656;
 }
 
-.login-form-btn {
+.form-input:focus {
+    border-bottom: 2px;
+}
+
+.form-btn {
     padding: 20px 0;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 50px;
+    margin-bottom: 10px;
     border-radius: 10px;
     background-color: #e38393;
 }
 
-.login-form-btn:hover {
+.form-btn:hover {
     background-color: #e55e74;
+}
+
+.form span {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
