@@ -1,15 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Header } from "../components/Header/Header";
+import { Footer } from "../components/Footer/Footer";
 
 export const HomeView = () => {
     return (
         <>
-        <nav>
-            <Link className="nav-link" to="/login">Log In</Link>
-            <Link className="nav-link" to="/register">Register</Link>
-            <Link className="nav-link" to="/write">Write Post</Link>
-        </nav>
+        <Header />
         <h1>Home Page</h1>
+        <Footer />
         </>
     );
 };
