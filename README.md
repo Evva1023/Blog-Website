@@ -6,6 +6,8 @@
 
 * Back-end built with **Express**
 
+---
+
 # Run React locally
 
 * Clone the repository
