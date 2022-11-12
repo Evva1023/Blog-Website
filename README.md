@@ -16,7 +16,7 @@
 git clone https://github.com/Evva1023/Blog-Website.git
 ```
 
-* Go to the client folder
+* Go to the client directory
 
 ```
 cd client
@@ -42,7 +42,7 @@ npm start
 git clone https://github.com/Evva1023/Blog-Website.git
 ```
 
-* Go to the server folder
+* Go to the server directory
 
 ```
 cd server
