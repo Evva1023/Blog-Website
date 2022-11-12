@@ -26,7 +26,7 @@ cd client
 npm i
 ```
 
-* Start the application on localhost:3000
+* Start the application
 
 ```
 npm start
